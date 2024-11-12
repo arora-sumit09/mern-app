@@ -28,9 +28,9 @@ router.delete("/:id", (req, res) => {
 
 // updating a workout
 router.patch("/:id", (req, res) => {
-  res.json({ mssg: " Update this workout " });
+  res.json({ mssg: " Updated this workout " });
 });
-console.log("randome text")
+console.log("randome string")
 console.log("router obj" , router);
 
 module.exports = router;
